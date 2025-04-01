@@ -5,12 +5,14 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Context from "./components/Context";
 import Footer from "./components/Footer";
+import Index from "./components/Index"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Header />
+    {/* <Header />
     <Context />
     <Main />
-    <Footer />
+    <Footer /> */}
+    <Index  />
   </StrictMode>
 );
